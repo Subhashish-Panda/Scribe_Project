@@ -1,0 +1,24 @@
+.background{
+    background-image: url('/assets/bg99.jpg');
+    height:100%;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: transparent !important;
+    margin-top: 35%;
+    border:none;
+    color:whitesmoke;
+}
+
+.btn[type=submit]{
+    border-radius: 40px;
+}
+.btn-link{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;  
+}
+.container-fluid{
+    height: 100%;
+}

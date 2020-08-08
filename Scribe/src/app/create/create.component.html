@@ -1,0 +1,16 @@
+<div class="row mt-5">
+    <!--Two input fields one for post title and another for post content-->
+    <div class="col">
+      <div class="form-group">
+        <label>Post Title</label>
+        <input type="text" placeholder="Post Title" name="title" [(ngModel)]="title" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label>Post Content</label>
+        <angular-editor [placeholder]="'Enter text here...'" [(ngModel)]="content" [config]="editorConfig"></angular-editor>
+        <div class="form-group float-right">
+        <button (click)="createPost()" class="btn btn-warning round">Submit</button>
+        </div>
+      </div>
+    </div>
+</div>
